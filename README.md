@@ -1,4 +1,4 @@
-*🍽️ Cooks-Delight
+**🍽️ Cooks-Delight
 
 A simple and responsive web app to search meals, browse categories, and view detailed recipes.
 All data is loaded from TheMealDB API.
