@@ -39,15 +39,19 @@ TheMealDB API
 # 🌐 API Endpoints
 
 Search meals by name:
+
 https://www.themealdb.com/api/json/v1/1/search.php?s=
 
 Get all categories:
+
 https://www.themealdb.com/api/json/v1/1/categories.php
 
 Meals by category:
+
 https://www.themealdb.com/api/json/v1/1/filter.php?c=
 
 Meal details by ID:
+
 https://www.themealdb.com/api/json/v1/1/lookup.php?i=
 
 ---
