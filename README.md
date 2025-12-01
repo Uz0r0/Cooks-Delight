@@ -1,10 +1,12 @@
-🍽️ Cooks-Delight
+*🍽️ Cooks-Delight
 
 A simple and responsive web app to search meals, browse categories, and view detailed recipes.
 All data is loaded from TheMealDB API.
 Users can search meals, see limited cards per category, and open detailed recipe modals.
 
-🚀 Features
+---
+
+*🚀 Features
 
 Search meals by name
 
@@ -20,7 +22,9 @@ Error handling for empty or invalid results
 
 Fully responsive layout for mobile, tablet, and desktop
 
-🛠️ Technologies Used
+---
+
+*🛠️ Technologies Used
 
 HTML5
 
@@ -30,7 +34,9 @@ JavaScript (Fetch API, DOM manipulation)
 
 TheMealDB API
 
-🌐 API Endpoints
+---
+
+*🌐 API Endpoints
 
 Search meals by name:
 https://www.themealdb.com/api/json/v1/1/search.php?s=
@@ -44,13 +50,17 @@ https://www.themealdb.com/api/json/v1/1/filter.php?c=
 Meal details by ID:
 https://www.themealdb.com/api/json/v1/1/lookup.php?i=
 
-📁 File Structure
-meal-app/
-│── index.html
-│── style.css
-│── script.js
+---
 
-📦 Installation
+*📁 File Structure
+meal-app/
+│── index.html /n
+│── style.css /n
+│── script.js /n
+
+---
+
+*📦 Installation
 
 Clone the project:
 
@@ -59,6 +69,8 @@ git clone https://github.com/your-username/meal-explorer.git
 Open index.html in any browser.
 No backend required.
 
-👨‍💻 Author
+---
+
+*👨‍💻 Author
 
 Created with ❤️ by Uz0r0
