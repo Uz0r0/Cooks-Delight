@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooks Delight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/Logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logo.png" alt="logo">
+            <p>Cooks <br> Delight</p>
+        </div>
+        <input class="search" type="text" placeholder="Enter name of food">
+        <img src="./img/ChefHat.png" alt="chefHat">
+    </header>
+    <main id="main"></main>
+    <div id="loader" class="hidden">Loading...</div>
+    <div id="error" class="hidden"></div>
+    <div>
+        <div id="modalRecipe" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-info">
+                    <div class="instruction">
+                        <h2 class="foodTitle" id="modalTitle"></h2>
+                        <p id="modalText"></p> 
+                    </div>
+                    <div class="points">
+                        <div class="point" id="cuisine"></div>
+                        <div class="point" id="category"></div>
+                    </div>
+                </div>
+                <button id="closeModal" class="btnStyle">CLOSE</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
